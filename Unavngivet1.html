@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: orangered;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+nav {
+  float: left;
+  width: 30%;
+  height: 5
+      00px; 
+  background: #ccc;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding:0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 500px; 
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Rysensteen Gymnasium</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="file:///Users/annakragh/Desktop/Rysensteen%20hjemmeside/Rysensteen.html">The school</a></li>
+      <li><a href="file:///Users/annakragh/Desktop/Rysensteen%20hjemmeside/Unavngivet1.html">ME</a></li>
+      <li><a href="file:///Users/annakragh/Desktop/Rysensteen%20hjemmeside/Unavngivet2.html">The class</a></li>
+         <li><a href="#">The city</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>The school</h1>
+    <p>Rysensteen is located at the heart of Copenhagen.</p>
+    <p>It is a five minute walk from Copenhagen Central station.</p>
+       <p><img src="rys.jpeg"></p>
+    
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
